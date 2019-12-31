@@ -8,7 +8,6 @@ sheet=file.sheet_by_name("3.1-3.5")
 nrows = sheet.nrows
 ncols = sheet.ncols
 print(nrows)
-'''
 file2=xlwt.Workbook(filename_end)
 sheet1 = file2.add_sheet(u'sheet1',cell_overwrite_ok=True)
 m=0
@@ -20,4 +19,3 @@ for r in range(nrows):
         j=j+1
     m=m+1
 file2.save(filename_end)
-'''
